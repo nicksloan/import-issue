@@ -1,6 +1,4 @@
 from __future__ import absolute_import
-from .a import foo
+from importtest.b import foo
 
 print a
-
-print foo
