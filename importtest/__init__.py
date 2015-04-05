@@ -1,4 +1,7 @@
 from __future__ import absolute_import
-from importtest.b import foo
+print "__init__"
 
-print a
+def test():
+    print "a is %s" % globals().get('a')
+
+test()
